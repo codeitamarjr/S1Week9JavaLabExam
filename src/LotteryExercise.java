@@ -16,6 +16,7 @@ public class LotteryExercise {
         lotteryNumber2 = keyboard.nextInt();
         System.out.println("Enter the third number for your lottery ticket(Between 1 and 24):");
         lotteryNumber3 = keyboard.nextInt();
+        keyboard.close();
 
         //The statement below is just to show the introduction of the Java program
         System.out.println("Dear "+name);
