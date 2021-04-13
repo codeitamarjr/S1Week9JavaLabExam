@@ -27,31 +27,31 @@ public class LotteryExercise {
         //if the third number match with on of the winingNumber
         //so the name won the first prize
 
-        if ((lotteryNumber1==winingNumber1 | lotteryNumber1==winingNumber2 | lotteryNumber1==winingNumber3) &&
-                (lotteryNumber2==winingNumber1 | lotteryNumber2==winingNumber2 | lotteryNumber2==winingNumber3) &&
-                 (lotteryNumber3==winingNumber1 | lotteryNumber3==winingNumber2 | lotteryNumber3==winingNumber3))
+        if ((lotteryNumber1==winingNumber1 || lotteryNumber1==winingNumber2 || lotteryNumber1==winingNumber3) &&
+                (lotteryNumber2==winingNumber1 || lotteryNumber2==winingNumber2 || lotteryNumber2==winingNumber3) &&
+                 (lotteryNumber3==winingNumber1 || lotteryNumber3==winingNumber2 || lotteryNumber3==winingNumber3))
             System.out.println("Congratulations! You have won the first prize.");
             else {
 
                 //Now the program will test if the number match with the first OR second AND third match
-            if ((lotteryNumber1 == winingNumber1 | lotteryNumber1 == winingNumber2 | lotteryNumber1 == winingNumber3) |
-                    (lotteryNumber2 == winingNumber1 | lotteryNumber2 == winingNumber2 | lotteryNumber2 == winingNumber3) &&
-                    (lotteryNumber3 == winingNumber1 | lotteryNumber3 == winingNumber2 | lotteryNumber3 == winingNumber3))
+            if ((lotteryNumber1 == winingNumber1 || lotteryNumber1 == winingNumber2 || lotteryNumber1 == winingNumber3) |
+                    (lotteryNumber2 == winingNumber1 || lotteryNumber2 == winingNumber2 || lotteryNumber2 == winingNumber3) &&
+                    (lotteryNumber3 == winingNumber1 || lotteryNumber3 == winingNumber2 || lotteryNumber3 == winingNumber3))
                 System.out.println("Congratulations! You have won the second prize.");
 
             else {
 
                 //The statement below if the first AND second OR third match
-                if ((lotteryNumber1 == winingNumber1 | lotteryNumber1 == winingNumber2 | lotteryNumber1 == winingNumber3) &&
-                        (lotteryNumber2 == winingNumber1 | lotteryNumber2 == winingNumber2 | lotteryNumber2 == winingNumber3) |
-                                (lotteryNumber3 == winingNumber1 | lotteryNumber3 == winingNumber2 | lotteryNumber3 == winingNumber3))
+                if ((lotteryNumber1 == winingNumber1 || lotteryNumber1 == winingNumber2 || lotteryNumber1 == winingNumber3) &&
+                        (lotteryNumber2 == winingNumber1 || lotteryNumber2 == winingNumber2 || lotteryNumber2 == winingNumber3) |
+                                (lotteryNumber3 == winingNumber1 || lotteryNumber3 == winingNumber2 || lotteryNumber3 == winingNumber3))
                     System.out.println("Congratulations! You have won the second prize.");
             else {
 
                 //The statement below if one of those three match
-                if ((lotteryNumber1 == winingNumber1 | lotteryNumber1 == winingNumber2 | lotteryNumber1 == winingNumber3) |
-                        (lotteryNumber2 == winingNumber1 | lotteryNumber2 == winingNumber2 | lotteryNumber2 == winingNumber3) |
-                        (lotteryNumber3 == winingNumber1 | lotteryNumber3 == winingNumber2 | lotteryNumber3 == winingNumber3))
+                if ((lotteryNumber1 == winingNumber1 || lotteryNumber1 == winingNumber2 || lotteryNumber1 == winingNumber3) |
+                        (lotteryNumber2 == winingNumber1 || lotteryNumber2 == winingNumber2 || lotteryNumber2 == winingNumber3) |
+                        (lotteryNumber3 == winingNumber1 || lotteryNumber3 == winingNumber2 || lotteryNumber3 == winingNumber3))
                     System.out.println("Congratulations! You have won the third prize.");
             }}}
 
