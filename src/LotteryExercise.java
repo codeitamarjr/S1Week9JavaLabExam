@@ -55,7 +55,7 @@ public class LotteryExercise {
             System.out.println("Congratulations! You have won the first prize.");
             else {
 
-            if ( (firstMatch && secondMatch) || (firstMatch && thirdMatch) && (secondMatch && thirdMatch))
+            if ( (firstMatch && secondMatch) || (firstMatch && thirdMatch) || (secondMatch && thirdMatch))
                 System.out.println("Congratulations! You have won the second prize.");
 
             else {
