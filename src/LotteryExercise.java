@@ -57,19 +57,14 @@ public class LotteryExercise {
         //If all the numbers match the user won the first prize
         if (firstMatch && secondMatch && thirdMatch)
             System.out.println("Congratulations! You have won the first prize.");
-            else {
 
                 //if not and the user have two match he won the second prize
             if ( (firstMatch && secondMatch) || (firstMatch && thirdMatch) || (secondMatch && thirdMatch))
                 System.out.println("Congratulations! You have won the second prize.");
 
-            else {
                 //The statement below if just one of those three match
-                if (firstMatch || secondMatch || thirdMatch)
+                if (firstMatch || secondMatch || thirdMatch){
                     System.out.println("Congratulations! You have won the third prize.");
-            }
-            }
-            //If none of them match Java will print the statement bellow
-            System.out.println("Best luck next time!");
+            } else System.out.println("Best luck next time!");
     }
 }
